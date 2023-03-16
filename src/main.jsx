@@ -1,4 +1,4 @@
-
+import image from "./assets/Group (1).png"
 function Main() {  
   return (    
   <>
@@ -11,7 +11,7 @@ function Main() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-      <img className="aside-image" src="./src/assets/Group (1).png" alt="" aria-hidden="true" />
+      <img className="aside-image" src={image} alt="" aria-hidden="true" />
     </section>    
   </>
   )
