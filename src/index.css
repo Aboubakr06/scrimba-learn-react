@@ -73,6 +73,11 @@
   margin-bottom: 20px;  
 }
 
+.section li::marker {
+  color: var(--light-blue);
+  font-size: 24px;
+}
+
 .aside-image {
   position: absolute;
   right: 0;
